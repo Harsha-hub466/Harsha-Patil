@@ -1,0 +1,237 @@
+close
+
+close
+
+Google Account
+Harsha Patil
+harshapatil347@gmail.com
+
+info
+This notebook is open with private outputs. Outputs will not be saved.
+You can disable this in Notebook settings <#>.
+close
+
+<https://drive.google.com/drive/search?
+q=owner%3Ame%20(type%3Aapplication%2Fvnd.google.colaboratory%20%7C%7C%20type%3Aapplication%2Fvnd.google.colab)&authuser=0>
+
+Untitled1.ipynb_
+
+star
+
+File
+ 
+Edit
+ 
+View
+ 
+Insert
+ 
+Runtime
+ 
+Tools
+ 
+Help
+ 
+
+comment
+
+settings
+
+people
+
+Share
+
+spark
+
+Gemini
+
+<https://accounts.google.com/SignOutOptions?hl=en&continue=https://
+colab.research.google.com/drive/1NT7Fpai7sOm6yylyiGogmvTm--
+mZiPeF&ec=GBRAqQM>
+Commands
+
+Code
+
+Text
+
+people
+
+settings
+
+spark
+
+expand_less
+expand_more
+
+format_list_bulleted
+
+find_in_page
+
+code
+
+vpn_key
+
+folder
+
+Notebook
+
+more_horiz
+
+------------------------------------------------------------------------
+spark Gemini
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df=pd.read_csv('/content/Iris.csv')
+plt.scatter(df['PetalLengthCm'],df['PetalWidthCm'])
+plt.title('scatter plot')
+plt.xlabel('PetalLengthCm')
+plt.ylabel('PetalWidthCm')
+plt.show()
+
+import pandas as pd import numpy as np import matplotlib.pyplot as plt
+df=pd.read_csv('/content/Iris.csv')
+plt.scatter(df['PetalLengthCm'],df['PetalWidthCm']) plt.title('scatter
+plot') plt.xlabel('PetalLengthCm') plt.ylabel('PetalWidthCm') plt.show()
+
+------------------------------------------------------------------------
+spark Gemini
+
+import pandas as pd
+species_counts = df['Species'].value_counts()
+plt.bar(species_counts.index, species_counts.values, color='lightblue')
+plt.title("Number of Flowers by Species")
+plt.xlabel("Species")
+plt.ylabel("Count")
+plt.grid(axis='y')
+
+------------------------------------------------------------------------
+spark Gemini
+
+plt.hist(df['PetalLengthCm'], bins=10, color='lightgreen', edgecolor='black')
+plt.title("Distribution of Petal Length")
+plt.xlabel("Petal Length (cm)")
+plt.ylabel("Frequency")
+plt.grid(True)
+plt.show()
+
+------------------------------------------------------------------------
+spark Gemini
+
+species = df['Species'].unique()
+data = [df[df['Species'] == s]['PetalLengthCm'] for s in species]
+plt.boxplot(data, labels=species)
+plt.title("Petal Length by Species")
+plt.xlabel("Species")
+plt.ylabel("Petal Length (cm)")
+plt.grid(True)
+plt.show()
+
+add
+
+Code
+
+add
+
+Text
+
+------------------------------------------------------------------------
+Colab paid products <https://colab.research.google.com/signup?
+utm_source=footer&utm_medium=link&utm_campaign=footer_links> - Cancel
+contracts here <https://colab.research.google.com/cancel-subscription>
+
+more_horiz
+
+more_horiz
+
+more_horiz
+
+data_object
+
+Variables
+
+terminal
+
+Terminal
+
+Locate in Drive
+Open in playground mode
+New notebook in Drive
+Open notebook
+Upload notebook
+Rename
+Move
+Move to trash
+Save a copy in Drive
+Save a copy as a GitHub Gist
+Save a copy in GitHub
+Save
+Save and pin revision
+Revision history
+Download ►
+Print
+Download .ipynb
+Download .py
+Undo
+Redo
+Select all cells
+Cut cell or selection
+Copy cell or selection
+Paste
+Delete selected cells
+Find and replace
+Find next
+Find previous
+Notebook settings
+Clear all outputs
+check
+Table of contents
+Notebook info
+Executed code history
+Comments ►
+Collapse sections
+Expand sections
+Save collapsed section layout
+Show/hide code
+Show/hide output
+Focus next tab
+Focus previous tab
+Move tab to next pane
+Move tab to previous pane
+Hide comments
+Minimize comments
+Expand comments
+Code cell
+Text cell
+Section header cell
+Scratch code cell
+Code snippets
+Add a form field
+Run all
+Run before
+Run the focused cell
+Run selection
+Run cell and below
+Interrupt execution
+Restart session
+Restart session and run all
+Disconnect and delete runtime
+Change runtime type
+Manage sessions
+View resources
+View runtime logs
+Command palette
+Settings
+Keyboard shortcuts
+Diff notebooks (opens in a new tab)
+Frequently asked questions
+View release notes
+Search code snippets
+Report a bug
+Report Drive abuse
+Send feedback
+View terms of service
+comment
+
+Add a comment
